@@ -1,0 +1,130 @@
+.zagolovok{
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  font-family:Bahnschrift;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #4B00EB;
+}
+.body{
+  margin-left: 20px;
+}
+.CCILK{
+  position: absolute;
+  left: 275px;
+  top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  transition: transform 1.0s;
+}
+.CCILK:hover{
+  transform: scale(1.2);
+}
+.devka {
+  position: absolute;
+  left: 760px;
+  top: 200px;
+}
+.infa{
+  position: absolute;
+  left: 68px;
+  top: 505px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 24px;
+  color: #828282;
+}
+#join{
+  box-sizing:border-box;
+  position: absolute;
+  left: 533px;
+  top: 67px;
+  font-size: 16px;
+  color: #888888;
+}
+.fon{
+  position: absolute;
+  width: 550px;
+  height: 950px;
+  left: 820px;
+  top: 40px;
+  background: linear-gradient(203.91deg, #DB00FF -8.81%, #4600FF 63.9%, #FA00FF 107.63%);
+  border-radius: 45px;
+}
+.crug{
+  left: 535px;
+  top: 53px;
+  width: 75px;
+  height: 44px;
+  font-size: 20px;
+  position: absolute;
+  border: 2px solid #8E8E8E;
+  border-radius: 50px;
+  transition: transform 0.6s;
+}
+.crug:hover{
+  transform: scale(1.2);
+}
+.nadpis{
+  color: black;
+  position: absolute;
+  left: 68px;
+  top: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 110px;
+  letter-spacing: 8px;
+}
+.cartinkavnadpis1{
+  position: absolute;
+  margin-left: 218px;
+  margin-top: 140px;
+}
+.cartinkavnadpis2{
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 243px;
+}
+.cartinkavnadpis3{
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 230px;
+}
+.cartinkavnadpis4{
+  position: absolute;
+  margin-left: 53px;
+  margin-top: 339px;
+}
+.ccilk{
+  box-sizing:border-box;
+  position: absolute;
+  left: 39px;
+  top: -10px;
+  font-size: 35px;
+  color: white;
+}
+.ccilk2{
+  box-sizing:border-box;
+  position: absolute;
+  left: 17px;
+  top: -10px;
+  font-size: 35px;
+  color: #000000;
+}
+.rekomend{
+  position: absolute;
+  left: 60px;
+  top: 870px;
+  font-size: 20px;
+  color: #000000;
+}
+
+
