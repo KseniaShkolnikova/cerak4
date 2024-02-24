@@ -1,16 +1,17 @@
+.body{
+  margin-left: 50px;
+}
+.section1{
+  display: flex;
+  flex-direction: row;
+}
 .zagolovok{
-  position: absolute;
-  left: 60px;
-  top: 20px;
   font-family:Bahnschrift;
   font-style: italic;
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
   color: #4B00EB;
-}
-.body{
-  margin-left: 20px;
 }
 .CCILK{
   position: absolute;
@@ -26,39 +27,81 @@
 .CCILK:hover{
   transform: scale(1.2);
 }
+.section2{
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+.nadpis{
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+}
+.cartinkavnadpis1{
+  margin-left: -405px;
+  margin-top: 60px;
+}
+.cartinkavnadpis2{
+  margin-left: -180px;
+  margin-top: 160px;
+}
+.cartinkavnadpis3{
+  margin-left: -600px;
+  margin-top: 155px;
+}
+.cartinkavnadpis4{
+  margin-left: -135px;
+  margin-top: 260px;
+}
 .devka {
   position: absolute;
-  left: 760px;
-  top: 200px;
+  left: 700px;
+  top: 190px;
+  transition: transform 0.6s;
+}
+.devka:hover{
+  transform: scale(1.1);
+}
+.fon{
+  margin-top: -100px;
+  margin-left: 100px;
+  width: 550px;
+  height: 900px;
+  background: linear-gradient(203.91deg, #DB00FF -8.81%, #4600FF 63.9%, #FA00FF 107.63%);
+  border-radius: 45px;
 }
 .infa{
-  position: absolute;
-  left: 68px;
-  top: 505px;
+  margin-top: 320px;
+  margin-left: -230px;
   font-style: normal;
-  font-weight: 500;
   font-size: 30px;
   line-height: 24px;
   color: #828282;
 }
-#join{
+
+.ccilk{
   box-sizing:border-box;
-  position: absolute;
-  left: 533px;
-  top: 67px;
-  font-size: 16px;
-  color: #888888;
+  left: 39px;
+  top: -10px;
+  font-size: 35px;
+  color: white;
 }
-.fon{
-  position: absolute;
-  width: 550px;
-  height: 950px;
-  left: 820px;
-  top: 40px;
-  background: linear-gradient(203.91deg, #DB00FF -8.81%, #4600FF 63.9%, #FA00FF 107.63%);
-  border-radius: 45px;
+.ccilk2{
+  box-sizing:border-box;
+  left: 17px;
+  top: -10px;
+  font-size: 35px;
+  color: #000000;
+}
+.rekomend{
+  left: -10px;
+  top: -900px;
+  font-size: 22px;
+  color: #000000;
 }
 .crug{
+  text-decoration: none;
   left: 535px;
   top: 53px;
   width: 75px;
@@ -71,60 +114,6 @@
 }
 .crug:hover{
   transform: scale(1.2);
-}
-.nadpis{
-  color: black;
-  position: absolute;
-  left: 68px;
-  top: 150px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 110px;
-  letter-spacing: 8px;
-}
-.cartinkavnadpis1{
-  position: absolute;
-  margin-left: 218px;
-  margin-top: 140px;
-}
-.cartinkavnadpis2{
-  position: absolute;
-  margin-left: 225px;
-  margin-top: 243px;
-}
-.cartinkavnadpis3{
-  position: absolute;
-  margin-left: 25px;
-  margin-top: 230px;
-}
-.cartinkavnadpis4{
-  position: absolute;
-  margin-left: 53px;
-  margin-top: 339px;
-}
-.ccilk{
-  box-sizing:border-box;
-  position: absolute;
-  left: 39px;
-  top: -10px;
-  font-size: 35px;
-  color: white;
-}
-.ccilk2{
-  box-sizing:border-box;
-  position: absolute;
-  left: 17px;
-  top: -10px;
-  font-size: 35px;
-  color: #000000;
-}
-.rekomend{
-  position: absolute;
-  left: 60px;
-  top: 870px;
-  font-size: 20px;
-  color: #000000;
 }
 
 
